@@ -1,0 +1,20 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "This project is a simple NodeJS HW landing page.",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:franknaw/nodejs-hw.git"
+  },
+  "homepage": "https://github.com/franknaw/nodejs-hw"
+}
