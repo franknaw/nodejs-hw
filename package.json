@@ -2,19 +2,23 @@
   "name": "landing-page",
   "version": "1.0.0",
   "description": "This project is a simple NodeJS HW landing page.",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "",
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "fnaw",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:franknaw/nodejs-hw.git"
+    "url": "git+ssh://git@github.com/franknaw/nodejs-hw.git"
   },
-  "homepage": "https://github.com/franknaw/nodejs-hw"
+  "homepage": "https://github.com/franknaw/nodejs-hw",
+  "bugs": {
+    "url": "https://github.com/franknaw/nodejs-hw/issues"
+  }
 }
