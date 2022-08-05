@@ -1,11 +1,24 @@
 {
-  "name": "app-service-hello-world22",
-  "description": "Simple Hello World Node.js sample for Azure App Service",
-  "version": "0.0.1",
-  "private": true,
-  "license": "MIT",
-  "author": "fnaw",
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "This project is a simple NodeJS HW landing page.",
+  "main": "index.js",
   "scripts": {
+    "test": "",
     "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "fnaw",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/franknaw/nodejs-hw.git"
+  },
+  "homepage": "https://github.com/franknaw/nodejs-hw",
+  "bugs": {
+    "url": "https://github.com/franknaw/nodejs-hw/issues"
   }
 }

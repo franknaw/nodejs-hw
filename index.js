@@ -1,11 +1,11 @@
-const http = require('http');
+const express = require('express');
+const app = express();
 
-const server = http.createServer((request, response) => {
-    response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello World22!");
+app.use('/', express.static(__dirname + '/html'));
+app.get('/', function (req, res) {
+    res.render('index.html');
 });
 
-const port = process.env.PORT || 1337;
-server.listen(port);
-
-console.log("Server running at http://localhost:%d", port);
+app.listen(8080, () => {
+    console.log('Listening on port 8080');
+});
